@@ -29,7 +29,7 @@ if lastUpdate == NewUpdate:
     print "It's Up-to-date"
 else:
     print "It's not up-to-date"
-    firebase.put(ID,':',NewUpdate)
+    #firebase.put('ID',':',NewUpdate)
     
     
 
